@@ -115,7 +115,7 @@ func TestExplorerTXLink(t *testing.T) {
 		expected    string
 	}{
 		{blockchain: eth, networkID: "1", expected: "https://etherscan.io/tx/0x123"},
-		{blockchain: eth, networkID: "5", expected: "https://goerli.etherscan.io/tx/0x123"},
+		{blockchain: eth, networkID: "11155111", expected: "https://sepolia.etherscan.io/tx/0x123"},
 		{blockchain: matic, networkID: "137", expected: "https://polygonscan.com/tx/0x123"},
 		{blockchain: matic, networkID: "80001", expected: "https://mumbai.polygonscan.com/tx/0x123"},
 		{blockchain: tron, networkID: "mainnet", expected: "https://tronscan.org/#/transaction/0x123"},

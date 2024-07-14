@@ -39,7 +39,7 @@ type CreatePaymentRequest struct {
 	ID strfmt.UUID `json:"id"`
 
 	// Indicates that this is a test payment.
-	// Test payments are processed in testnets (e.g. Ethereum Goerli)
+	// Test payments are processed in testnets (e.g. Ethereum Sepolia)
 	//
 	IsTest bool `json:"isTest,omitempty"`
 

@@ -84,7 +84,7 @@ definitions:
         type: boolean
         description: |
           Indicates that this is a test payment.
-          Test payments are processed in testnets (e.g. Ethereum Goerli)
+          Test payments are processed in testnets (e.g. Ethereum Sepolia)
         x-nullable: false
         x-omitempty: false
       paymentUrl:
@@ -231,7 +231,7 @@ definitions:
         type: boolean
         description: |
           Indicates that this is a test payment.
-          Test payments are processed in testnets (e.g. Ethereum Goerli)
+          Test payments are processed in testnets (e.g. Ethereum Sepolia)
         x-nullable: false
       description:
         type: string

@@ -95,7 +95,7 @@ const PaymentForm: React.FC<Props> = (props: Props) => {
                 <Checkbox>Test payment</Checkbox>
             </Form.Item>
             <Typography.Text type="secondary" style={{display: "block", marginBottom: "24px"}}>
-                Test payments are processed using testnets like Ethereum Goerli
+                Test payments are processed using testnets like Ethereum Sepolia
             </Typography.Text>
             <Space>
                 <Button

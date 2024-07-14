@@ -342,7 +342,7 @@ func tronPaymentLink(addr string, _ money.CryptoCurrency, amount money.Money, _ 
 
 var explorers = map[string]string{
 	"ETH/1":        "https://etherscan.io/tx/%s",
-	"ETH/5":        "https://goerli.etherscan.io/tx/%s",
+	"ETH/5":        "https://sepolia.etherscan.io/tx/%s",
 	"MATIC/137":    "https://polygonscan.com/tx/%s",
 	"MATIC/80001":  "https://mumbai.polygonscan.com/tx/%s",
 	"BSC/56":       "https://bscscan.com/tx/%s",
